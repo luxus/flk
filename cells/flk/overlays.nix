@@ -20,11 +20,11 @@ in
 
     inherit
       (inputs.devos-ext-lib.overlays)
-      minecraft-mods
-      papermc
-      python3Packages
-      vimPlugins
-      vscode-extensions
+      # minecraft-mods
+      # papermc
+      # python3Packages
+      # vimPlugins
+      # vscode-extensions
       ;
 
     nixpkgs-wayland = inputs.nixpkgs-wayland.overlays.default;
@@ -166,47 +166,47 @@ in
       inherit
         (final.papermc-pkgs)
         # 1.8.x - 1.11.x
-        
+
         papermc-1_8_8
         papermc-1_9_4
         papermc-1_10_2
         papermc-1_11_2
         # 1.12.x
-        
+
         papermc-1_12
         papermc-1_12_1
         papermc-1_12_2
         # 1.13.x
-        
+
         papermc-1_13-pre7
         papermc-1_13
         papermc-1_13_1
         papermc-1_13_2
         # 1.14.x
-        
+
         papermc-1_14
         papermc-1_14_1
         papermc-1_14_2
         papermc-1_14_3
         papermc-1_14_4
         # 1.15.x
-        
+
         papermc-1_15
         papermc-1_15_1
         papermc-1_15_2
         # 1.16.x
-        
+
         papermc-1_16_1
         papermc-1_16_2
         papermc-1_16_3
         papermc-1_16_4
         papermc-1_16_5
         # 1.17.x
-        
+
         papermc-1_17
         papermc-1_17_1
         # 1.18.x
-        
+
         papermc-1_18
         papermc-1_18_1
         papermc-1_18_2

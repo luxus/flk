@@ -25,6 +25,8 @@
 
     fog.url = "github:danielphan2003/fog";
 
+    neovim-nightly-overlay.url = "github:nix-community/neovim-nightly-overlay";
+
     hyprland.url = "github:hyprwm/Hyprland";
 
     hyprwm-contrib.url = "github:hyprwm/contrib";
@@ -74,8 +76,8 @@
     };
 
     devos-ext-lib = {
-      # url = "github:divnix/devos-ext-lib";
-      url = "/home/danie/src/github.com/danielphan2003/devos-ext-lib";
+      url = "github:danielphan2003/devos-ext-lib";
+      # url = "/home/danie/src/github.com/danielphan2003/devos-ext-lib";
       inputs.std.follows = "std";
       inputs.nixpkgs.follows = "nixpkgs";
     };
@@ -320,6 +322,7 @@
       "https://nix-gaming.cachix.org"
       "https://nixpkgs-wayland.cachix.org"
       "https://nrdxp.cachix.org"
+      "https://luxus.cachix.org"
     ];
     extra-trusted-public-keys = [
       "cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY="
@@ -330,6 +333,7 @@
       "nix-gaming.cachix.org-1:nbjlureqMbRAxR1gJ/f3hxemL9svXaZF/Ees8vCUUs4="
       "nixpkgs-wayland.cachix.org-1:3lwxaILxMRkVhehr5StQprHdEo4IrE8sRho9R9HOLYA="
       "nrdxp.cachix.org-1:Fc5PSqY2Jm1TrWfm88l6cvGWwz3s93c6IOifQWnhNW4="
+      "luxus.cachix.org-1:eW/nJy5bZow2D3wf59qy7a9mfiZNjshIK/BozwgIlLU="
     ];
   };
   # --------------------------------------------------------------
